@@ -4,6 +4,8 @@ By Belkacem Mohammed
 
 Avant d'utiliser ces algorithmes, installez
 Python 3.6+ (https://www.python.org/)
+Ensuite, installez les bibiolothèques suivantes:
+
 * sklearn: pip install sklearn
 * pickle:  pip install pickle
 * wget:  pip install wget
