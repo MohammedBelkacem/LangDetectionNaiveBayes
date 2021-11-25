@@ -2,9 +2,9 @@
 
 By Belkacem Mohammed
 
-Avant d'utiliser ces algorithmes, installez Python 3.6+ (https://www.python.org/)
+Before using these algorithms, make sure to install Python 3.6+ (https://www.python.org/)
 
-Ensuite, installez les bibiolothèques suivantes:
+Nex, install the folowing Python libraries:
 
 * sklearn: pip install sklearn
 * pickle:  pip install pickle
@@ -14,7 +14,9 @@ Ensuite, installez les bibiolothèques suivantes:
 
 
 Languages used: ['kab','eng','fra','ita','eus','cat','por','spa','deu','nld','swe','est','srp','tur','hun','rus']
-feel free to add your laguages and modify download file and modele generation file
+
+
+Feel free to add your laguages and modify the download file and the model generation file
 
 This tool aims to generate a common model language using naive bayes implemented by sklearn
 
