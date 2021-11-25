@@ -18,6 +18,10 @@ Languages used: ['kab','eng','fra','ita','eus','cat','por','spa','deu','nld','sw
 
 Feel free to add your laguages and modify the download file and the test model file according to languages you are using.
 
+Use iso 639-2 alpha code languages. Please check Taoteba list of languages here: 
+
+https://tatoeba.org/kab/sentences/index
+
 This tool aims to generate a common model language using naive bayes implemented by sklearn
 
 Data is downloaded from Tatoeba and processed to get a training corpora to generate the model and a test corpora to test the model (classify sentences by language)
