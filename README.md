@@ -2,6 +2,15 @@
 
 By Belkacem Mohammed
 
+Avant d'utiliser ces algorithmes, installez
+Python 3.6+ (https://www.python.org/)
+* sklearn: pip install sklearn
+* pickle:  pip install pickle
+* wget:  pip install wget
+* bz2: pip install bz2
+* pandas: pip install pandas
+
+
 Languages used: ['kab','eng','fra','ita','eus','cat','por','spa','deu','nld','swe','est','srp','tur','hun','rus']
 feel free to add your laguages and modify download file and modele generation file
 
