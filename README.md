@@ -16,7 +16,7 @@ Nex, install the folowing Python libraries:
 Languages used: ['kab','eng','fra','ita','eus','cat','por','spa','deu','nld','swe','est','srp','tur','hun','rus']
 
 
-Feel free to add your laguages and modify the download file and the model generation file
+Feel free to add your laguages and modify the download file and the test model file according to languages you are using.
 
 This tool aims to generate a common model language using naive bayes implemented by sklearn
 
