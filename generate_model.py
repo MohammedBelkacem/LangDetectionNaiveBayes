@@ -3,7 +3,6 @@
 ##
 import pandas as pd
 import re
-import matplotlib.pyplot as plt
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import MultinomialNB
@@ -20,10 +19,7 @@ data = pd.read_csv("data_traning/LanguageDetection.csv", sep='\t')
 X = data["sentence"]
 y = data["language"]
 
-##for  col in data.columns:
-## print (col)
-##exit()
-# do something with series
+
 
 le = LabelEncoder()
 y = le.fit_transform(y)
@@ -35,9 +31,7 @@ data_list = []
 for text in X:
         text = re.sub(r'[!@#$(),"%^*?:;~`0-9]', ' ', text)
         text = re.sub(r'[[]]', ' ', text)
-        # converting the text to lower case
         text = text.lower()
-        # appending to data_list
         data_list.append(text)
 
 
@@ -56,3 +50,4 @@ y_pred = model.predict(x_test)
 ac = accuracy_score(y_test, y_pred)
 
 print ('tiseddi n tneɣruft:', ac)
+print("finished")
