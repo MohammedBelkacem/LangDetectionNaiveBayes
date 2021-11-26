@@ -51,6 +51,4 @@ for i in tutlayin:
        afaylu_yemmden.close()
 
 
-
-
-
+print("finished")
